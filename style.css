@@ -1,0 +1,285 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	content: none;
+	color: #20A1D0;
+	font-size: 1em;
+}
+
+   
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	background: linear-gradient(180deg, rgba(226,250,255,0.7) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 75%, rgba(226,250,255,0.7) 100%);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+#info_home li a
+{
+	text-decoration: none;
+	color: #0D6EFD;
+	font-weight: bold;
+}
+
+
+h1, h3
+{
+	padding-left: 10px;
+}
+
+
+li
+{
+	font-size: 0.9em;
+	color: #101210;
+}
+
+
+input
+{
+	color: black;
+}
+
+
+header div form
+{
+	display: flex;
+	margin: auto;
+}
+
+#rechercheInput
+{
+	width: 20vw;
+	height: 2vw;
+	margin-right: 1vw;
+}
+
+#ok_recherche
+{
+	width: 2vw;
+	height: 2vw;
+	margin: 0;
+}
+
+
+#recherche_conteneur
+{
+	display: flex;
+	margin-top: 0;
+}
+
+.rubrique1 div a
+{
+	color: #9C2F03;
+	font-weight:bold;
+}
+
+/* BOOTSTRAP EDIT */
+.dropdown:hover .dropdown-menu
+{
+   display: block;
+}
+
+
+.navbar
+{
+    position: relative; /* Assurez-vous que la navbar a une position relative */
+}
+
+
+.navbar-nav
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.nav-item
+{
+	flex: 1;
+	text-align: center;
+	border: 1px solid rgb(192,192,192,0.5);
+	border-bottom: 3px solid blue;
+	padding: 6px; 
+	color: blue;
+}
+
+
+
+.dropdown-menu
+{
+	width: 100%;
+	margin-top: 0;
+    position: absolute;
+    top: 105%; /* en dessous de la navbar */
+	background-color: #e4e5f5;
+}
+
+
+.nav-link
+{
+	color: #1186DB; 
+	font-size: 1em;
+}
+
+.dropdown-item
+{
+	color: #1186DB; 
+	font-size: 0.8em;
+	padding: 0;
+	padding-left: 7%;
+}
+
+
+.nav-link:hover, .dropdown-item:hover
+{
+	color: #07A4FC;
+	text-decoration: underline;
+}
+
+
+.dropdown
+{
+	/* gen avec https://cssgradient.io/ */
+	background: linear-gradient(180deg, rgba(154,187,209,0.28622787005427175) 0%, rgba(255,255,255,0.6335668056285014) 50%, rgba(154,187,209,0.2750233882615546) 100%);
+}
+
+
+.dropdown-item::before
+{
+	content: "› ";
+}
+
+
+.list-unstyled li
+{
+	list-style-type: disc;
+	color: gray;
+}
+.list-unstyled li a span
+{
+	color: white;
+}
+footer * p
+{
+	margin-top: 10px;
+	color: white;
+}
+/* //////////// */
+
+
+#la_bar, #la_bar a
+{
+	background-color: #00327B;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-family: Roboto;
+}
+
+
+#info_home
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+	margin: 2%;
+	margin-left: 0;
+	font-size: 0.8em;
+}
+
+
+
+@media screen and (max-width: 768px)
+{
+	
+	/* BOOTSTRAP NAVBAR EDIT */
+	.nav-item
+	{
+		flex: none;
+	}
+	
+	/* modifie la taille des sections contenant les li */
+	.dropdown
+	{
+		width: 100%;
+	}
+	
+	.nav-link, .dropdown-item
+	{
+		color: #1186DB; 
+	}
+	
+	.container
+	{
+        padding-left: 0;
+        padding-right: 0;
+	}
+	
+	
+	/* //////////// */
+	#info_home
+	{
+		margin: 5%;
+		margin-left: 10%;
+	}
+	
+	header
+	{
+		flex-direction: column;
+		align-items: center;
+		
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	
+    header div img
+	{
+        max-width: 99%;
+        height: auto;
+    }
+	
+	header div form
+	{
+		display: flex;
+	}
+	
+	#rechercheInput
+	{
+		width: 84vw;
+		height: 8vw;
+		margin-right: 2vw;
+		margin-left: 2vw;
+	}
+	
+	#ok_recherche
+	{
+		width: 10vw;
+		height: 8vw;
+		margin-right: 2vw;
+	}
+	
+	.annonce
+	{
+		font-weight: normal;
+		color: #20A1D0;
+	}
+}
+
+
+@media (min-width: 769px) and (max-width: 1000px)
+{
+	/* modifie la taille des sections contenant les li */
+	.dropdown
+	{
+		width: 100%;
+	}
+}

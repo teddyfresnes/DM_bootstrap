@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Devoir à la maison: KOEHREN Teddy</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+		<link href="specifique_msp.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div>
+					<img src="img/logo_msp_Part.png" width="365" height="73">
+				</div>
+				<div class="ml-auto" role="search" id="recherche_conteneur">
+					<form action="https://mon.service-public.fr/portail/faces/jsp/liste_res_tout.jsp" method="get">
+						<input type="text" name="fullText" id="rechercheInput" placeholder="Rechercher" title="Rechercher">
+						<input type="submit" value="ok" title="Lancer la recherche" id="ok_recherche">
+					</form>
+				</div>
+			</header>
+			<nav class="navbar-expand-lg">
+				<ul class="navbar navbar-nav">
+					<section class="nav-item dropdown mx-auto">
+						<li class="nav-link" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Mon tableau de bord
+						</li>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+							<li><a class="dropdown-item" href="#">Mes liaisons de comptes</a></li>
+							<li><a class="dropdown-item" href="#">Mon calendrier</a></li>
+							<li><a class="dropdown-item" href="#">Mon suivi</a></li>
+						</ul>
+					</section>
+					<section class="nav-item dropdown mx-auto">
+						<li class="nav-link" href="#" id="navbarDropdown2" role=button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Mes documents
+						</li>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown2" data-bs-offset="10,20">
+							<li><a class="dropdown-item" href="#">Mon porte-documents</a></li>
+							<li><a class="dropdown-item" href="#">Mon bloc-notes</a></li>
+						</ul>
+					</section>
+					<section class="nav-item dropdown mx-auto">
+						<li class="nav-link" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Mon profil
+						</li>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+							<li><a class="dropdown-item" href="#">Mes coordonnées</a></li>
+							<li><a class="dropdown-item" href="#">Mes contacts</a></li>
+							<li><a class="dropdown-item" href="#">Mes options</a></li>
+						</ul>
+					</section>
+					<section class="nav-item dropdown mx-auto">
+						<li class="nav-link" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Catalogue des services
+						</li>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+							<li><a class="dropdown-item" href="#">Les démarches</a></li>
+							<li><a class="dropdown-item" href="#">Les formulaires CERFA</a></li>
+							<li><a class="dropdown-item" href="#">Les organismes partenaires</a></li>
+							<li><a class="dropdown-item" href="http://lannuaire.service-public.fr/" target="_blank">L'annuaire de l'administration</a></li>
+							<li><a class="dropdown-item" href="http://www.service-public.fr/" target="_blank">Le guide des droits et démarches</a></li>
+						</ul>
+					</section>
+				</ul>
+			</nav>
+			<ul id ="info_home">
+				<li><a href="https://mon.service-public.fr/portail/">Accueil</a></li>
+				<li>&nbsp;&gt;&nbsp;Mon tableau de bord</li>
+			</ul>
+			<section class="row ">
+				<main id="contenu_principal" class="tableau_de_bord col-md-9">
+					<h1>Mon tableau de bord</h1>
+					<div class="annonce">Découvrez ci-dessous ce que vous pouvez faire dans la rubrique « Mon tableau de bord ».</div>
+					<div class="rubriques row flex-md-row flex-column">
+						<div class="col">
+							<a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/mes_liaisons.jsp"><img src="img/402_429_Liaisons.JPG" width="60" height="60">Mes liaisons de comptes</a>
+							<ul>
+								<li>Accédez d'un clic à vos comptes administratifs sans ressaisir vos identifiants et mots de passe.</li>
+								<li>Gérez vos liaisons de comptes.</li>
+							</ul>
+						</div>
+						<div class="col">
+							<a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/mon_calendrier.jsp"><img src="img/605_403_418_picto_agenda.gif" width="60" height="60">Mon calendrier </a>
+							<ul>
+								<li>Notez et visualisez toutes vos échéances administratives.</li>
+								<li>Recevez des alertes par courriel pour vos rappels  d'échéances.</li>
+							</ul>
+						</div>
+						<div class="col">
+							<a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/mon_suivi.jsp"><img src="img/401_430_suivi.jpg" width="60" height="60">Mon suivi </a>
+							<ul>
+								<li>Suivez l'avancement de vos démarches en ligne.</li>
+								<li>Consultez les messages envoyés.</li>
+							</ul>
+						</div>
+					</div>
+				</main>
+				<aside id="colonne_droite" class="col-md-3 float-md-right">
+					<div class="rubrique2 rubriques">
+						<h3>LES ASTUCES</h3>
+						<ul>
+							<li><a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/page_detail_astuce_MSP.jsp?idAstuce=1001" target="_self" title="Lien vers Accédez depuis mon.service-public.fr à une nouvelle génération de démarches en ligne">Accédez depuis mon.service-public.fr à une nouvelle génération de démarches en ligne</a></li>
+						</ul>
+						<div class="bottom_link">
+							<a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/toutes_astuces_msp.jsp">Toutes les astuces</a>
+						</div>
+					</div>
+					<div class="rubrique1 rubriques">
+						<h3>Les actualités</h3>
+						<ul>
+							<li><a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/page_detail_actualite_MSP.jsp?idActu=11644" title="Lien vers Votre avis nous intéresse…"><span class="date">22/10/2012</span> Que pensez-vous de MSP ?</a></li>
+							<li><a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/page_detail_actualite_MSP.jsp?idActu=11823" title="Lien vers Une nouvelle démarche dans le Tarn"><span class="date">10/10/2012</span> Le Conseil général du Tarn vient de déployer, une nouvelle téléprocédure .</a></li>
+							<li><a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/page_detail_actualite_MSP.jsp?idActu=11643" title="Lien vers Déclarez en ligne le décès d'un proche "><span class="date">30/07/2012</span> Une nouvelle démarche en ligne sur MSP</a></li>
+							<li><a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/page_detail_actualite_MSP.jsp?idActu=11631" title="Lien vers Pour les départements numérotés de 50 à 974 il ne vous reste que quelques jours pour télé-déclarer vos revenus"><span class="date">15/06/2012</span> Accédez à votre déclaration de revenus depuis MSP</a></li>
+						</ul>
+						<div class="bottom_link">
+							<a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/tout_actualites_msp.jsp">Toutes les actualités</a>
+						</div>
+					</div>
+				</aside>
+			</section>
+			<footer class="bg-primary">
+<footer class="bg-primary text-white">
+    <div>
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-2 mt-3 mb-3">
+                <div class="d-flex justify-content-center">
+                    <a href="http://www.ojd-internet.com/chiffres-internet/7111-service-public.fr" target="_blank">
+                        <img src="img/logo-ojd.png" alt="logo du OJD">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2">
+                <p class="mb-2">Assistance et contact</p>
+                <ul class="list-unstyled small mt-2">
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/plan_du_site.jsp" target="_self">
+                            <span title="">Plan du site</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/contact.jsp" target="_self">
+                            <span title="">Contact</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/aide.jsp" target="_self">
+                            <span title="">Aide</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/faqs.jsp" target="_self">
+                            <span title="">Questions fréquentes</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-2">
+                <p class="mb-2">Informations légales</p>
+                <ul class="list-unstyled small mt-2">
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/mentions_legales.jsp">
+                            <span title="">Mentions légales</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/conditions_generales_utilisation.jsp" target="_self">
+                            <span title="">Conditions générales d'utilisation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.service-public.fr/%C3%A0-propos-du-site/001371.html" target="_blank">
+                            <span title="Répertoire des informations publiques - Nouvelle fenêtre">Répertoire des informations publiques</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-2">
+                <p class="mb-2">Qualité de service</p>
+                <ul class="list-unstyled small mt-2">
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/accessibilite.jsp">
+                            <span title="">Accessibilité</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/securite.jsp">
+                            <span title="">Sécurité</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/engagement_qualite.jsp">
+                            <span title="">Engagement qualité</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/statistiques.jsp">
+                            <span title="">Statistiques</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-2">
+                <p class="mb-2">Partenariat</p>
+                <ul class="list-unstyled small mt-2">
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/partenaires.jsp">
+                            <span title="">Nos organismes partenaires</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/devenir_partenaire.jsp">
+                            <span title="">Devenir partenaire ?</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="la_bar" class="text-white mt-3 p-2">
+                    <a target="_blank" href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/a_propos_de_la_DGME.jsp" class="text-white">Tous droits réservés - Direction Générale de Modernisation de l'Etat - 2012 </a> | <a title="A propos du site" href="https://lp-projet-web.ovh/css3/evaluations/20221006_devoir_maison/jsp/authent/a_propos_du_site.jsp" class="text-white">A propos de mon.service-public.fr</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+		</div>
+	</body>
+</html>
