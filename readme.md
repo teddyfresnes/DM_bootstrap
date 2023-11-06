@@ -4,7 +4,7 @@
 
 Devoir à la maison sur un hébergement en ligne de page statique  
 Dépot sur https://github.com/teddyfresnes/LPW_2023/tree/main/NOLLET/DM%20Service%20Public  
-Site sur dmbootstrap-teddyk.netlify.app  
+Site sur [dmbootstrap-teddyk.netlify.app  ](https://dmbootstrap-teddyk.netlify.app/)
 
 
 ## Structure du Code
